@@ -12,7 +12,7 @@ closeBtn.addEventListener('click', () => {
   navMenu.classList.remove('active');
 });
 
-// Close Sidebar when a link is clicked
+
 document.querySelectorAll('.nav-items').forEach(link => { // Added the dot .
   link.addEventListener('click', () => {
     navMenu.classList.remove('active');
